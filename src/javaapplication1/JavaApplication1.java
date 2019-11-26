@@ -25,9 +25,9 @@ public class JavaApplication1 {
     }
     
     public static void main(String[] args) {
-        String API_KEY = "7d78647d53e8b2cea0daf8ffea5850d2";
-        String LOCATION = "Mumbai,";
-        String URL_String = "api.openweathermap.org/data/2.5/weather?q=" + LOCATION + "@appid=" + API_KEY;
+        String API_KEY = "YOUR_API_KEY";
+        String LOCATION = "Mumbai,in";
+        String URL_String = "https://api.openweathermap.org/data/2.5/weather?q=" + LOCATION + "&appid=" + API_KEY;
         
         try{
             StringBuilder result = new StringBuilder();
